@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="#75000000"
+        android:letterSpacing="0.1"
+        android:lineHeight="40sp"
+        android:padding="25dp"
+        android:text="İlkokuldayken iki nokta arasındaki en kısa mesafenin düz bir
+çizgi olduğunu öğrenmiştik. Ancak bu her zaman doğru değildir, çünkü eğer bir sayfa
+kağıdı iki nokta birbirine dokununcaya kadar kıvırırsak, iki nokta arasındaki en kısa
+ mesafenin aslında bir solucan deliği olduğunu görürüz."
+        android:textColor="#ffffff"
+        android:textIsSelectable="true"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:letterSpacing="0.1"
+        android:lineHeight="40sp"
+        android:padding="30dp"
+        android:text="Michio Kakus"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+</FrameLayout>
